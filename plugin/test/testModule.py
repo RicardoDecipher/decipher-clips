@@ -25,9 +25,7 @@ class TestFactories(unittest.TestCase):
 
     def testElementFactory(self):
         template = ('<{type} label="{label}"{extra}>'
-                    '  <title>'
-                    '    {title}'
-                    '  </title>'
+                    '  <title>{title}</title>'
                     '  <comment>{comment}</comment>'
                     '  {content}'
                     '</{type}>'
